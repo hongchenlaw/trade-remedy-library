@@ -1,0 +1,184 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Hong Chen Trade Remedy Law Library</title>
+    <meta
+      name="description"
+      content="A practical law library introducing anti-dumping, countervailing duty, and safeguard investigations across major jurisdictions."
+    >
+    <link rel="stylesheet" href="styles.css">
+  </head>
+  <body>
+    <header class="site-header">
+      <a class="brand" href="#top" aria-label="Hong Chen Trade Remedy Law Library home">
+        <span class="brand-mark">HC</span>
+        <span>
+          <strong>Hong Chen</strong>
+          <small>Trade Remedy Law Library</small>
+        </span>
+      </a>
+      <nav aria-label="Primary navigation">
+        <a href="#library" data-i18n="nav">International Trade Remedy</a>
+        <div class="language-switch" aria-label="Language switch">
+          <button class="lang-button active" type="button" data-lang="en">EN</button>
+          <button class="lang-button" type="button" data-lang="zh">中文</button>
+        </div>
+      </nav>
+    </header>
+
+    <main id="top">
+      <section class="hero" aria-labelledby="hero-title">
+        <img src="assets/trade-remedy-library-hero.png" alt="Legal research desk with trade remedy documents and world map">
+        <div class="hero-overlay"></div>
+        <div class="hero-content">
+          <p class="eyebrow" data-i18n="heroEyebrow">International Trade Remedy Practice</p>
+          <h1 id="hero-title" data-i18n="heroTitle">A practical law library for international trade remedy.</h1>
+          <p data-i18n="heroCopy">
+            Built for exporters, in-house counsel, trade associations, and legal teams who need a clear first map of
+            each jurisdiction's practice, procedure, authority, legal basis, and participation risks.
+          </p>
+          <div class="hero-actions">
+            <a class="button primary" href="#library" data-i18n="explore">Explore Countries</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="intro" aria-label="Library scope">
+        <div>
+          <span class="section-label" data-i18n="scopeLabel">Scope</span>
+          <h2 data-i18n="scopeTitle">Simple, official-source oriented, and friendly to non-specialists.</h2>
+        </div>
+        <p data-i18n="scopeCopy">
+          This first version summarizes selected major jurisdictions and links to official authorities wherever possible.
+          It is a learning and orientation tool, not a substitute for checking the latest statute, regulation, notice, or
+          case record in a live investigation.
+        </p>
+      </section>
+
+      <section class="tool-band" id="library" aria-labelledby="library-title">
+        <div class="section-heading">
+          <span class="section-label" data-i18n="countryPractice">Country Practice</span>
+          <h2 id="library-title" data-i18n="libraryTitle">Jurisdiction Library</h2>
+          <p data-i18n="libraryCopy">Filter by measure type or search for a country, authority, law, or practical issue.</p>
+        </div>
+
+        <div class="controls" aria-label="Library controls">
+          <label class="select-box">
+            <span data-i18n="countrySelectLabel">Explore Countries</span>
+            <select id="countrySelect"></select>
+          </label>
+          <label class="search-box">
+            <span data-i18n="searchLabel">Search</span>
+            <input id="searchInput" type="search" placeholder="Country, law, authority, exporter issue">
+          </label>
+        </div>
+
+        <div class="country-grid" id="countryGrid" aria-live="polite"></div>
+      </section>
+
+      <section class="procedure" id="procedure" aria-labelledby="procedure-title">
+        <div class="section-heading">
+          <span class="section-label" data-i18n="procedureLabel">Procedure</span>
+          <h2 id="procedure-title" data-i18n="procedureTitle">Typical Investigation Path</h2>
+          <p data-i18n="procedureCopy">Exact deadlines differ by jurisdiction, but trade remedy cases often move through these practical stages.</p>
+        </div>
+        <ol class="timeline">
+          <li>
+            <span>1</span>
+            <div>
+              <h3 data-i18n="timelineOneTitle">Petition or application</h3>
+              <p data-i18n="timelineOneCopy">Domestic industry files evidence of dumping, subsidization, injury, causal link, or import surge.</p>
+            </div>
+          </li>
+          <li>
+            <span>2</span>
+            <div>
+              <h3 data-i18n="timelineTwoTitle">Initiation and questionnaires</h3>
+              <p data-i18n="timelineTwoCopy">The authority opens the case, identifies interested parties, and issues exporter, importer, and producer questionnaires.</p>
+            </div>
+          </li>
+          <li>
+            <span>3</span>
+            <div>
+              <h3 data-i18n="timelineThreeTitle">Sampling, responses, and verification</h3>
+              <p data-i18n="timelineThreeCopy">Exporters prepare data on sales, costs, subsidies, and corporate structure. Verification tests accuracy and completeness.</p>
+            </div>
+          </li>
+          <li>
+            <span>4</span>
+            <div>
+              <h3 data-i18n="timelineFourTitle">Preliminary determination</h3>
+              <p data-i18n="timelineFourCopy">Authorities may impose provisional duties, accept undertakings, or continue collecting evidence.</p>
+            </div>
+          </li>
+          <li>
+            <span>5</span>
+            <div>
+              <h3 data-i18n="timelineFiveTitle">Hearing and comments</h3>
+              <p data-i18n="timelineFiveCopy">Parties comment on disclosure, defend methodology, raise public interest issues, and challenge injury analysis.</p>
+            </div>
+          </li>
+          <li>
+            <span>6</span>
+            <div>
+              <h3 data-i18n="timelineSixTitle">Final determination and review</h3>
+              <p data-i18n="timelineSixCopy">Final duties may be imposed, terminated, reviewed, appealed, or examined in sunset and administrative reviews.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="reference-band" id="laws" aria-labelledby="laws-title">
+        <div class="section-heading">
+          <span class="section-label" data-i18n="lawsLabel">Laws And Regulations</span>
+          <h2 id="laws-title" data-i18n="lawsTitle">Official Legal Materials To Check First</h2>
+          <p data-i18n="lawsCopy">Use these as starting points before reviewing the latest notices, questionnaires, and case-specific instructions.</p>
+        </div>
+        <div class="reference-grid" id="referenceGrid"></div>
+      </section>
+
+      <section class="comments" id="comments" aria-labelledby="comments-title">
+        <div>
+          <span class="section-label" data-i18n="commentsLabel">Professional Comments</span>
+          <h2 id="comments-title" data-i18n="commentsTitle">Chinese Exporter Participation: Common Advantages And Weaknesses</h2>
+        </div>
+        <div class="comment-columns">
+          <article>
+            <h3 data-i18n="advantages">Potential advantages</h3>
+            <ul>
+              <li data-i18n="advantageOne">Large production scale can support detailed cost and sales data when records are well organized.</li>
+              <li data-i18n="advantageTwo">Experienced exporters may already understand product control numbers, sampling, and verification discipline.</li>
+              <li data-i18n="advantageThree">Strong commercial documentation can help explain pricing, product differences, and customer channels.</li>
+            </ul>
+          </article>
+          <article>
+            <h3 data-i18n="weaknesses">Common weaknesses</h3>
+            <ul>
+              <li data-i18n="weaknessOne">Late internal coordination can make questionnaire deadlines difficult, especially for affiliated companies.</li>
+              <li data-i18n="weaknessTwo">Accounting classifications may not match the authority's cost or subsidy reporting format.</li>
+              <li data-i18n="weaknessThree">Insufficient narrative explanation may leave normal commercial facts looking inconsistent or incomplete.</li>
+            </ul>
+          </article>
+          <article>
+            <h3 data-i18n="response">Practical response</h3>
+            <ul>
+              <li data-i18n="responseOne">Start document preservation immediately after petition rumors or pre-filing signals appear.</li>
+              <li data-i18n="responseTwo">Build one verified data room for sales, cost, production, subsidy, ownership, and export documentation.</li>
+              <li data-i18n="responseThree">Use legal argument and data explanation together; neither side is enough by itself.</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p data-i18n="footer">Prepared for Hong Chen. Content is for professional orientation and should be checked against current official sources.</p>
+      <a href="#top" data-i18n="top">Back to top</a>
+    </footer>
+
+    <script src="data.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
