@@ -71,7 +71,7 @@ const measureTemplates = {
       outcomes:
         "Possible outcomes include termination, no duty, provisional measures, undertakings, final anti-dumping duties, exporter-specific rates, and later administrative, interim, expiry, or sunset reviews.",
       comments:
-        "Chinese exporters usually gain from early cooperation, complete sales and cost data, and clear product-scope arguments. Main challenges are short deadlines, verification, adverse facts available, and methodology disputes."
+        "Chinese exporters usually gain from early cooperation, complete sales and cost data, clear product-scope arguments, and strong commercial documentation. Main challenges are short deadlines, verification, adverse facts available, methodology disputes, late internal coordination, and accounting records that may not match the authority's reporting format. A practical response is to preserve documents early and build one verified data room for sales, cost, production, ownership, and export records."
     },
     zh: {
       introduction:
@@ -81,7 +81,7 @@ const measureTemplates = {
       outcomes:
         "可能结果包括终止调查、不征税、临时措施、价格承诺、最终反倾销税、出口商单独税率，以及行政复审、期中复审、日落复审等后续程序。",
       comments:
-        "中国出口商的优势在于尽早配合、提供完整销售和成本数据并提出清晰的产品范围抗辩；挑战在于期限短、核查要求高、不利事实风险和方法论争议。"
+        "中国出口商的优势在于尽早配合、提供完整销售和成本数据、提出清晰的产品范围抗辩，并以完整商业文件解释价格、产品差异和客户渠道；挑战在于期限短、核查要求高、不利事实风险、方法论争议、内部协调较晚，以及会计记录可能与主管机关填报格式不一致。实务上应尽早保存文件，并建立经核验的数据室，集中销售、成本、生产、股权和出口记录。"
     }
   },
   Countervailing: {
@@ -93,7 +93,7 @@ const measureTemplates = {
       outcomes:
         "Possible outcomes include termination, no measure, provisional countervailing duty, final countervailing duty, subsidy undertakings where available, company-specific subsidy rates, and later reviews.",
       comments:
-        "Chinese exporters need coordinated company and government responses, a complete subsidy-program map, and evidence showing no benefit or no specificity. Challenges include affiliate tracing, grants, tax programs, land-use issues, and verification across multiple entities."
+        "Chinese exporters need coordinated company and government responses, a complete subsidy-program map, and evidence showing no benefit or no specificity. Advantages may come from organized ownership, finance, tax, land-use, sales, and production records. Challenges include affiliate tracing, grants, tax programs, land-use issues, verification across multiple entities, short deadlines, and incomplete narrative explanations. A practical response is to coordinate early with affiliates and government stakeholders and keep one verified record set for subsidy, ownership, accounting, and export documentation."
     },
     zh: {
       introduction:
@@ -103,7 +103,7 @@ const measureTemplates = {
       outcomes:
         "可能结果包括终止调查、不采取措施、临时反补贴税、最终反补贴税、在适用情况下的承诺、企业单独补贴率以及后续复审。",
       comments:
-        "中国出口商需要企业与政府协同答复，完整梳理补贴项目，并证明不存在利益或专向性；挑战包括关联方追溯、补助、税收项目、土地使用问题和多主体核查。"
+        "中国出口商需要企业与政府协同答复，完整梳理补贴项目，并证明不存在利益或专向性；如股权、财务、税收、土地使用、销售和生产记录整理充分，将形成重要优势。挑战包括关联方追溯、补助、税收项目、土地使用问题、多主体核查、期限短，以及事实说明不足。实务上应尽早协调关联方和政府相关主体，并统一保存补贴、股权、会计和出口文件。"
     }
   },
   Safeguard: {
@@ -115,7 +115,7 @@ const measureTemplates = {
       outcomes:
         "Possible outcomes include no measure, provisional safeguard, tariff increase, tariff-rate quota, quota, adjustment plan, compensation discussions, retaliation risk, extension, liberalization, or termination.",
       comments:
-        "Chinese exporters can work with importers and downstream users to show market need, lack of serious injury, or alternative causes. The challenge is that safeguard measures may apply globally rather than only to one country."
+        "Chinese exporters can work with importers and downstream users to show market need, lack of serious injury, alternative causes, product differences, and public-interest concerns. Advantages may come from reliable import, customer, price, and downstream-use evidence. Challenges include short deadlines, broad injury analysis, limited company-specific relief, and the fact that safeguard measures may apply globally rather than only to one country. A practical response is to preserve market evidence early and coordinate arguments with importers, users, and trade associations."
     },
     zh: {
       introduction:
@@ -125,7 +125,7 @@ const measureTemplates = {
       outcomes:
         "可能结果包括不采取措施、临时保障措施、提高关税、关税配额、数量限制、产业调整计划、补偿磋商、报复风险、延长、逐步放宽或终止。",
       comments:
-        "中国出口商可联合进口商和下游用户证明市场需求、无严重损害或存在其他损害原因；主要挑战是保障措施通常可能全球适用，而非仅针对某一国家。"
+        "中国出口商可联合进口商和下游用户证明市场需求、无严重损害、存在其他损害原因、产品差异和公共利益因素；可靠的进口、客户、价格和下游用途证据可形成优势。挑战包括期限短、损害分析范围较宽、企业单独救济空间有限，以及保障措施通常可能全球适用而非仅针对某一国家。实务上应尽早保存市场证据，并与进口商、用户和行业协会协调抗辩。"
     }
   }
 };
@@ -158,7 +158,7 @@ const countryProfiles = [
           outcomes:
             "The investigation may be terminated, proceed without measures, lead to provisional securities, or result in final duties imposed by the Minister. Duties may be fixed, ad valorem, floor-price based, or combined, and exporter-specific rates may apply.",
           comments:
-            "Australia can be relatively favorable for cooperative Chinese exporters because it does not automatically apply the same strict non-market economy approach used in some jurisdictions. The main risks are incomplete data, short response deadlines, verification, and facts available."
+            "Australia can be relatively favorable for cooperative Chinese exporters because it does not automatically apply the same strict non-market economy approach used in some jurisdictions. Advantages may come from complete sales, cost, product-scope, and commercial documentation. The main risks are incomplete data, short response deadlines, verification, facts available, late internal coordination, and accounting records that need explanation. A practical response is to preserve documents early and build one verified data room for sales, cost, production, ownership, and export records."
         },
         zh: {
           introduction:
@@ -168,7 +168,7 @@ const countryProfiles = [
           outcomes:
             "调查可能被终止、继续但不采取措施、采取临时保证金，或由部长决定征收最终税。税种可为固定税、从价税、底价机制或组合方式，并可能适用出口商单独税率。",
           comments:
-            "对积极配合的中国出口商而言，澳大利亚可能相对有利，因为其通常不会自动适用某些司法辖区的严格非市场经济方法。主要风险在于资料不完整、答卷期限短、核查和可得事实。"
+            "对积极配合的中国出口商而言，澳大利亚可能相对有利，因为其通常不会自动适用某些司法辖区的严格非市场经济方法。完整的销售、成本、产品范围和商业文件可形成优势。主要风险在于资料不完整、答卷期限短、核查、可得事实、内部协调较晚，以及会计记录需要充分解释。实务上应尽早保存文件，并建立经核验的数据室，集中销售、成本、生产、股权和出口记录。"
         },
         schedule: {
           en: [
