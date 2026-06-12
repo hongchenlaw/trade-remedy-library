@@ -212,9 +212,7 @@ nav a {
 
 .intro,
 .tool-band,
-.procedure,
-.reference-band,
-.comments {
+.reference-band {
   padding: 68px clamp(18px, 4vw, 56px);
 }
 
@@ -227,8 +225,7 @@ nav a {
 }
 
 .intro h2,
-.section-heading h2,
-.comments h2 {
+.section-heading h2 {
   margin: 0;
   font-family: ui-serif, Georgia, Cambria, "Times New Roman", serif;
   font-size: clamp(2rem, 3.4vw, 3.45rem);
@@ -446,49 +443,42 @@ dd {
   border-bottom: 0;
 }
 
-.timeline {
+.procedure-tables {
   display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
   gap: 16px;
-  padding: 0;
-  margin: 0;
-  list-style: none;
 }
 
-.timeline li,
-.reference-item,
-.comments article {
-  background: #fff;
-  border: 1px solid var(--line);
-  box-shadow: 0 10px 28px rgba(20, 32, 31, 0.055);
+.procedure-tables h5 {
+  margin: 0 0 8px;
+  color: var(--green);
+  font-size: 0.86rem;
+  font-weight: 850;
+  text-transform: uppercase;
 }
 
-.timeline li {
-  display: grid;
-  grid-template-columns: 44px 1fr;
-  gap: 14px;
-  padding: 20px;
+.path-table {
+  min-width: 620px;
 }
 
-.timeline span {
-  display: grid;
+.path-table td:first-child {
+  width: 28%;
+}
+
+.path-table td:nth-child(2) {
+  width: auto;
+  font-weight: 400;
+}
+
+.stage-number {
+  display: inline-grid;
   place-items: center;
-  width: 38px;
-  height: 38px;
+  width: 24px;
+  height: 24px;
+  margin-right: 8px;
   background: var(--green);
   color: #fff;
+  font-size: 0.78rem;
   font-weight: 850;
-}
-
-.timeline h3,
-.comments h3 {
-  margin: 0 0 8px;
-  line-height: 1.2;
-}
-
-.timeline p {
-  margin: 0;
-  color: var(--muted);
 }
 
 .reference-band {
@@ -508,6 +498,9 @@ dd {
   gap: 8px;
   min-height: 150px;
   padding: 18px;
+  background: #fff;
+  border: 1px solid var(--line);
+  box-shadow: 0 10px 28px rgba(20, 32, 31, 0.055);
   color: var(--ink);
   text-decoration: none;
 }
@@ -520,31 +513,6 @@ dd {
 .reference-item span {
   color: var(--muted);
   font-size: 0.92rem;
-}
-
-.comments {
-  display: grid;
-  gap: 28px;
-}
-
-.comment-columns {
-  display: grid;
-  grid-template-columns: repeat(3, minmax(0, 1fr));
-  gap: 16px;
-}
-
-.comments article {
-  padding: 22px;
-}
-
-.comments ul {
-  margin: 0;
-  padding-left: 19px;
-  color: var(--muted);
-}
-
-.comments li + li {
-  margin-top: 10px;
 }
 
 .footer {
@@ -580,9 +548,7 @@ dd {
   .intro,
   .controls,
   .country-grid,
-  .timeline,
-  .reference-grid,
-  .comment-columns {
+  .reference-grid {
     grid-template-columns: 1fr;
   }
 
